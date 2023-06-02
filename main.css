@@ -1,0 +1,82 @@
+body {
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    background-color: black;
+}
+
+.navbar {
+    background-color: black;
+    border-bottom: solid #44d62c;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #44d62c;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-produtos .nav-link.active:hover {
+    color: #44d62c;
+}
+
+.navbar-toggler {
+    background-color: #44d62c;
+}
+
+.section-title {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#sobre-a-razer {
+    background-color: #222;
+    border-bottom: solid #44d62c;
+}
+
+#produtos {
+    background-color: #222;
+    border-top: solid #44d62c;
+    border-bottom: solid #44d62c;
+}
+
+.text-colored {
+    color: #44d62c;
+}
+
+.nav-produtos .nav-link.active
+{
+    background-color: #ffeae6;
+    color: #44d62c;
+}
+
+#fale-conosco button{
+    background-color: #44d62c;
+    color: #ffeae6;
+}
+
+#fale-conosco button:hover{
+    background-color: #44d62c;
+    color: #ffeae6;
+    border: solid #44d62c;
+}
+
+.nav-produtos .nav-link:hover {
+    color: #ffeae6;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+    margin: 5%;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
