@@ -46,23 +46,23 @@ body {
 
 .nav-produtos .nav-link.active
 {
-    background-color: #ffeae6;
+    background-color: #fff;
     color: #44d62c;
 }
 
 #fale-conosco button{
     background-color: #44d62c;
-    color: #ffeae6;
+    color: #fff;
 }
 
 #fale-conosco button:hover{
     background-color: #44d62c;
-    color: #ffeae6;
+    color: #fff;
     border: solid #44d62c;
 }
 
 .nav-produtos .nav-link:hover {
-    color: #ffeae6;
+    color: #fff;
 }
 
 .social-links li {
